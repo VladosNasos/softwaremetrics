@@ -1,0 +1,52 @@
+1. Defect Density:
+Defect Density is the number of defects found in a software module or system divided by the size of the module or system. It is typically measured in defects per thousand lines of code (KLOC).
+Formula: Defect Density = Number of Defects / Size (in KLOC).
+
+
+2. External Measures:
+External measures are software quality metrics that assess the behavior or performance of a system in its operational environment. Examples include response time, reliability, usability, and maintainability.
+
+
+3. Coupling:
+Coupling is the measure of the degree of interdependence between software modules. Low coupling is preferred as it indicates that modules are more independent and easier to maintain.
+
+
+4. SW Metrics:
+Software Metrics are standards of measure that quantify various characteristics of software, such as size, complexity, quality, or performance. Examples include cyclomatic complexity, lines of code (LOC), and function points.
+
+
+5. Maintenance Quality Metrics:
+These metrics evaluate the effectiveness and efficiency of software maintenance activities. Examples include mean time to repair (MTTR), defect resolution time, and maintenance effort ratio.
+
+
+6. Reliability Parameters:
+Reliability parameters measure the ability of software to perform its intended functions under specified conditions for a defined period. Examples include Mean Time Between Failures (MTBF), Mean Time to Failure (MTTF), and failure rate.
+
+
+7. Analyze the Software Metrics Results:
+This involves interpreting the collected metrics data to identify trends, detect anomalies, and evaluate whether the software meets quality goals. Analysis helps in decision-making for improving software processes or products.
+
+
+8. Failure Rate:
+Failure rate is the frequency with which software failures occur, typically expressed as failures per unit of time. It is calculated as the reciprocal of MTBF:
+Failure Rate = 1 / MTBF.
+
+
+9. Function Point:
+Function Point is a metric used to measure the functionality provided by the software to its user. It evaluates the size of software based on its functional components, such as inputs, outputs, user interactions, files, and interfaces.
+
+
+10. Stages of Design:
+The stages of software design include:
+
+
+11. Requirements Analysis: Understanding and documenting user needs.
+
+
+12. System Design: Defining the architecture and components of the system.
+
+
+13. Detailed Design: Creating detailed specifications for each component.
+
+
+14. Implementation: Translating design into code.ч
