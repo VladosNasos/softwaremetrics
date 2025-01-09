@@ -1,0 +1,123 @@
+Started by user admin
+
+Running as SYSTEM
+Building in workspace C:\ProgramData\Jenkins\.jenkins\workspace\softwaremetrics
+The recommended git tool is: NONE
+using credential b2860db7-29bf-4ed0-8601-ef0ba82f5d34
+ > git.exe rev-parse --resolve-git-dir C:\ProgramData\Jenkins\.jenkins\workspace\softwaremetrics\.git # timeout=10
+Fetching changes from the remote Git repository
+ > git.exe config remote.origin.url https://github.com/vladosnasos/softwaremetricstest.git # timeout=10
+Fetching upstream changes from https://github.com/vladosnasos/softwaremetricstest.git
+ > git.exe --version # timeout=10
+ > git --version # 'git version 2.46.2.windows.1'
+using GIT_ASKPASS to set credentials 
+ > git.exe fetch --tags --force --progress -- https://github.com/vladosnasos/softwaremetricstest.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git.exe rev-parse "origin/main^{commit}" # timeout=10
+Checking out Revision f131a6e58af9bf8b022d29e974e8d42921340ef0 (origin/main)
+ > git.exe config core.sparsecheckout # timeout=10
+ > git.exe checkout -f f131a6e58af9bf8b022d29e974e8d42921340ef0 # timeout=10
+Commit message: "Edited requrements"
+ > git.exe rev-list --no-walk f131a6e58af9bf8b022d29e974e8d42921340ef0 # timeout=10
+[softwaremetrics] $ cmd /c call C:\Windows\TEMP\jenkins6388643092519682335.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\softwaremetrics>C:\Users\Vlados\Desktop\softwaremetrics\jenkins.bat
+
+C:\ProgramData\Jenkins\.jenkins\workspace\softwaremetrics>cd C:\Users\Vlados\Desktop\softwaremetrics 
+
+C:\Users\Vlados\Desktop\softwaremetrics>C:\Python312\python.exe -m pip install -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt 
+Requirement already satisfied: astroid==3.3.5 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 1)) (3.3.5)
+Requirement already satisfied: attrs==24.2.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 2)) (24.2.0)
+Requirement already satisfied: bandit==1.7.10 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 3)) (1.7.10)
+Requirement already satisfied: certifi==2024.8.30 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 4)) (2024.8.30)
+Requirement already satisfied: cffi==1.17.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 5)) (1.17.1)
+Requirement already satisfied: cfgv==3.4.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 6)) (3.4.0)
+Requirement already satisfied: chardet==5.2.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 7)) (5.2.0)
+Requirement already satisfied: charset-normalizer==3.4.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 8)) (3.4.0)
+Requirement already satisfied: colorama==0.4.6 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 9)) (0.4.6)
+Requirement already satisfied: dill==0.3.9 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 10)) (0.3.9)
+Requirement already satisfied: distlib==0.3.9 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 11)) (0.3.9)
+Requirement already satisfied: filelock==3.16.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 12)) (3.16.1)
+Requirement already satisfied: flake8==7.1.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 13)) (7.1.1)
+Requirement already satisfied: gitdb==4.0.11 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 14)) (4.0.11)
+Requirement already satisfied: GitPython==3.1.43 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 15)) (3.1.43)
+Requirement already satisfied: h11==0.14.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 16)) (0.14.0)
+Requirement already satisfied: identify==2.6.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 17)) (2.6.1)
+Requirement already satisfied: idna==3.10 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 18)) (3.10)
+Requirement already satisfied: isort==5.13.2 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 19)) (5.13.2)
+Requirement already satisfied: mando==0.7.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 20)) (0.7.1)
+Requirement already satisfied: markdown-it-py==3.0.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 21)) (3.0.0)
+Requirement already satisfied: mccabe==0.7.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 22)) (0.7.0)
+Requirement already satisfied: mdurl==0.1.2 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 23)) (0.1.2)
+Requirement already satisfied: nodeenv==1.9.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 24)) (1.9.1)
+Requirement already satisfied: outcome==1.3.0.post0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 25)) (1.3.0.post0)
+Requirement already satisfied: pbr==6.1.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 26)) (6.1.0)
+Requirement already satisfied: platformdirs==4.3.6 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 27)) (4.3.6)
+Requirement already satisfied: pre_commit==4.0.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 28)) (4.0.1)
+Requirement already satisfied: pycodestyle==2.12.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 29)) (2.12.1)
+Requirement already satisfied: pycparser==2.22 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 30)) (2.22)
+Requirement already satisfied: pyflakes==3.2.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 31)) (3.2.0)
+Requirement already satisfied: Pygments==2.18.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 32)) (2.18.0)
+Requirement already satisfied: pygount==1.8.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 33)) (1.8.0)
+Requirement already satisfied: pylint==3.3.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 34)) (3.3.1)
+Requirement already satisfied: PySocks==1.7.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 35)) (1.7.1)
+Requirement already satisfied: PyYAML==6.0.2 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 36)) (6.0.2)
+Requirement already satisfied: radon==6.0.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 37)) (6.0.1)
+Requirement already satisfied: requests==2.32.3 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 38)) (2.32.3)
+Requirement already satisfied: rich==13.9.2 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 39)) (13.9.2)
+Requirement already satisfied: selenium==4.25.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 40)) (4.25.0)
+Requirement already satisfied: six==1.16.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 41)) (1.16.0)
+Requirement already satisfied: smmap==5.0.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 42)) (5.0.1)
+Requirement already satisfied: sniffio==1.3.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 43)) (1.3.1)
+Requirement already satisfied: sortedcontainers==2.4.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 44)) (2.4.0)
+Requirement already satisfied: stevedore==5.3.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 45)) (5.3.0)
+Requirement already satisfied: tomlkit==0.13.2 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 46)) (0.13.2)
+Requirement already satisfied: trio==0.27.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 47)) (0.27.0)
+Requirement already satisfied: trio-websocket==0.11.1 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 48)) (0.11.1)
+Requirement already satisfied: typing_extensions==4.12.2 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 49)) (4.12.2)
+Requirement already satisfied: urljoin==1.0.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 50)) (1.0.0)
+Requirement already satisfied: urllib3==2.2.3 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 51)) (2.2.3)
+Requirement already satisfied: virtualenv==20.26.6 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 52)) (20.26.6)
+Requirement already satisfied: websocket-client==1.8.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 53)) (1.8.0)
+Requirement already satisfied: wsproto==1.2.0 in c:\python312\lib\site-packages (from -r C:\Users\Vlados\Desktop\softwaremetrics\requirements.txt (line 54)) (1.2.0)
+
+[notice] A new release of pip is available: 24.0 -> 24.3.1
+[notice] To update, run: python.exe -m pip install --upgrade pip
+
+C:\Users\Vlados\Desktop\softwaremetrics>git init 
+Reinitialized existing Git repository in C:/Users/Vlados/Desktop/softwaremetrics/.git/
+
+C:\Users\Vlados\Desktop\softwaremetrics>git config --global user.email "bezzzubkovlad@gmail.com" 
+
+C:\Users\Vlados\Desktop\softwaremetrics>git config --global user.name "vladosnasos" 
+
+C:\Users\Vlados\Desktop\softwaremetrics>git config --global --add safe.directory C:/Users/Vlados/Desktop/softwaremetrics 
+
+C:\Users\Vlados\Desktop\softwaremetrics>pre-commit install 
+pre-commit installed at .git\hooks\pre-commit
+
+C:\Users\Vlados\Desktop\softwaremetrics>git add ./.pre-commit-config.yaml 
+
+C:\Users\Vlados\Desktop\softwaremetrics>git add -A 
+
+C:\Users\Vlados\Desktop\softwaremetrics>git commit -m "testing pre-commits" 
+pylint...................................................................Failed
+- hook id: pylint
+- exit code: 16
+
+************* Module main
+main.py:1:0: C0114: Missing module docstring (missing-module-docstring)
+main.py:5:0: C0115: Missing class docstring (missing-class-docstring)
+main.py:6:4: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:11:4: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:16:4: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:21:4: C0116: Missing function or method docstring (missing-function-docstring)
+main.py:26:4: C0116: Missing function or method docstring (missing-function-docstring)
+
+------------------------------------------------------------------
+Your code has been rated at 6.32/10 (previous run: 6.32/10, +0.00)
+
+flake8...................................................................Passed
+pygount..................................................................Passed
+bandit...................................................................Passed
+Build step 'Execute Windows batch command' marked build as failure
+Finished: FAILURE
